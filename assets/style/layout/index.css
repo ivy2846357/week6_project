@@ -1,0 +1,78 @@
+.banner {
+  background-image: url(../images/banner.jpg);
+  width: 100%;
+  height: 480px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.navbar {
+  border: 1px solid #707070;
+}
+
+.navbar .nav-link {
+  border-bottom: 1px solid transparent;
+}
+
+.navbar .nav-link:hover {
+  border-bottom: 1px solid #E31277;
+}
+
+.exhibition .row {
+  height: 350px;
+}
+
+.exhibition .row .img-box {
+  background-position: center center;
+  background-size: cover;
+}
+
+.exhibition .bg-gray {
+  background: #EFEFEF;
+}
+
+.exhibition .fa-facebook {
+  font-size: 20px;
+}
+
+.movie .movie-bg {
+  background-image: url(../images/people2.png);
+  width: 100%;
+  height: 482px;
+}
+
+.movie .movie-bg .col-5 {
+  background-color: #190014CC;
+  opacity: .9;
+}
+
+.movie .movie-bg .col-5 .img-box {
+  height: 128px;
+  width: 128px;
+}
+
+.like .img-box {
+  width: 350px;
+  height: 350px;
+  background-position: center center;
+  background-size: cover;
+}
+
+footer .logo {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+footer ul li {
+  margin-right: 32px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li a:hover {
+  color: #E31277;
+}
+
+/*# sourceMappingURL=index.css.map */
