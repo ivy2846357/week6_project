@@ -1,0 +1,36 @@
+.ticket {
+    .img-box {
+        background-image: url(../images/alina-grubnyak-R84Oy89aNKs-unsplash.jpg);
+        height: 256px;
+
+        @include bg-cover;
+    }
+
+    ul {
+        .border-bottom-purple {
+            border-bottom: 1px solid $pink;
+        }
+    }
+
+    .number-hover {
+        transition: all .3s;
+
+        &:hover {
+            color: $pink;
+        }
+    }
+
+    .banner {
+        height: 400px;
+        background-image: url(../images/max-van-den-oetelaar-IMYe9uYN27E-unsplash.jpg);
+        @include bg-cover;
+    }
+
+    .article {
+        .col-4 {
+            background-image: url(../images/ricardo-gomez-angel-j5gCOKZdm6I-unsplash.jpg);
+            height: 559px;
+            @include bg-cover;
+        }
+    }
+}

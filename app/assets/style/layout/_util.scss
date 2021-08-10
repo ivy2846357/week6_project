@@ -1,3 +1,7 @@
+$pink: #E31277;
+$purple: #630834;
+$dark-purple: #190014CC;
+
 @mixin bg-cover {
     background-position: center center;
     background-size: cover;
@@ -5,4 +9,17 @@
 
 a {
     text-decoration: none;
+}
+
+.navbar-hover {
+    border: 1px solid #707070;
+
+    .nav-link {
+        transition: all .3s;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+            border-bottom: 1px solid #E31277;
+        }
+    }
 }

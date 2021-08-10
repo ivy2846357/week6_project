@@ -4,87 +4,49 @@
 }
 
 
-.banner {
-    background-image: url(../images/banner.jpg);
-    width: 100%;
-    height: 480px;
-    @include bg-cover;
-}
-
-.navbar {
-    border: 1px solid #707070;
-
-    .nav-link {
-        border-bottom: 1px solid transparent;
-
-        &:hover {
-            border-bottom: 1px solid #E31277;
-        }
-    }
-}
-
-.exhibition {
-    .row {
-        height: 350px;
-
-        .img-box {
-            @include bg-cover;
-        }
-    }
-
-    .bg-gray {
-        background: #EFEFEF;
-    }
-
-    .fa-facebook {
-        font-size: 20px;
-    }
-}
-
-.movie {
-    .movie-bg {
-        background-image: url(../images/people2.png);
+.index {
+    .banner {
+        background-image: url(../images/banner.jpg);
         width: 100%;
-        height: 482px;
-
-        .col-5 {
-            background-color: #190014CC;
-            opacity: .9;
-
-            .img-box {
-                height: 128px;
-                width: 128px;
-            }
-        }
-    }
-}
-
-.like {
-    .img-box {
-        width: 350px;
-        height: 350px;
-
+        height: 480px;
         @include bg-cover;
     }
-}
 
-footer {
-    .logo {
-        font-size: 24px;
-        line-height: 24px;
+    .exhibition {
+        .row {
+            height: 350px;
+
+            .img-box {
+                @include bg-cover;
+            }
+        }
+
+        .bg-gray {
+            background: #EFEFEF;
+        }
+
+        .fa-facebook {
+            font-size: 20px;
+
+            &:hover {
+                color: #035397;
+            }
+        }
     }
 
-    ul {
-        li {
-            margin-right: 32px;
+    .movie {
+        .movie-bg {
+            background-image: url(../images/people2.png);
+            width: 100%;
+            height: 482px;
 
-            &:last-child {
-                margin-right: 0;
-            }
+            .col-5 {
+                background-color: #190014CC;
+                opacity: .9;
 
-            a {
-                &:hover {
-                    color: #E31277;
+                .img-box {
+                    height: 128px;
+                    width: 128px;
                 }
             }
         }

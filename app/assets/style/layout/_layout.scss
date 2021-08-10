@@ -31,8 +31,53 @@
     }
 }
 
-.footer {
-    background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
-    height: 400px;
-    @include bg-cover;
+.like {
+    a {
+        transition: all .3s;
+
+        &:hover {
+            color: $pink;
+        }
+
+        .img-box {
+            width: 350px;
+            height: 350px;
+
+            @include bg-cover;
+        }
+    }
+
+}
+
+footer {
+    .footer {
+        background-image: url(../images/wladislaw-peljuchno-Y_f1aHpR1tc-unsplash.jpg);
+        height: 400px;
+        @include bg-cover;
+
+        .copy-right {
+            font-size: 16px;
+        }
+    }
+
+    .logo {
+        font-size: 24px;
+        line-height: 24px;
+    }
+
+    ul {
+        li {
+            margin-right: 32px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+
+            a {
+                &:hover {
+                    color: #E31277;
+                }
+            }
+        }
+    }
 }
