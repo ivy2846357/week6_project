@@ -1,0 +1,37 @@
+.order {
+    .process {
+        position: relative;
+        padding: 0 48px;
+        margin-top: 24px;
+        border-top: 2px solid $pink;
+
+        li {
+            margin-top: 8px;
+
+            &::before {
+                content: '';
+                display: block;
+                width: 8px;
+                height: 8px;
+                border: 2px solid $pink;
+                border-radius: 50%;
+                background-color: #fff;
+
+                position: absolute;
+                top: -15%;
+                transform: translateX(300%);
+            }
+        }
+    }
+
+    .product {
+        margin-top: 28px;
+
+        .img-box {
+            width: 160px;
+            height: 84px;
+
+            @include bg-cover;
+        }
+    }
+}
