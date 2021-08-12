@@ -12505,6 +12505,11 @@ footer ul li a:hover {
   border-bottom: 1px solid #d63384;
 }
 
+.ticket .number {
+  font-size: 40px;
+  line-height: 60px;
+}
+
 .ticket .number-hover {
   -webkit-transition: all .3s;
   -o-transition: all .3s;
@@ -12513,6 +12518,18 @@ footer ul li a:hover {
 
 .ticket .number-hover:hover {
   color: #d63384;
+}
+
+.ticket .ticket {
+  border-left: 1px solid #000;
+}
+
+.ticket .btn {
+  padding: 10px 96px;
+}
+
+.ticket .fa-facebook {
+  font-size: 20px;
 }
 
 .ticket .banner {
@@ -12527,6 +12544,22 @@ footer ul li a:hover {
   height: 559px;
   background-position: center center;
   background-size: cover;
+}
+
+.ticket .article .col-8 {
+  padding-left: 30px;
+}
+
+.ticket .article .col-8 h2, .ticket .article .col-8 .h2 {
+  margin-bottom: 4px;
+}
+
+.ticket .article .col-8 h3, .ticket .article .col-8 .h3 {
+  margin-bottom: 12px;
+}
+
+.ticket .article .col-8 p {
+  margin-bottom: 16px;
 }
 
 a {
@@ -12566,6 +12599,48 @@ a {
 .title-word {
   font-size: 20px;
   line-height: 30px;
+}
+
+.word {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.order .process {
+  position: relative;
+  padding: 0 48px;
+  margin-top: 24px;
+  border-top: 2px solid #E31277;
+}
+
+.order .process li {
+  margin-top: 8px;
+}
+
+.order .process li::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #E31277;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  top: -15%;
+  -webkit-transform: translateX(300%);
+      -ms-transform: translateX(300%);
+          transform: translateX(300%);
+}
+
+.order .product {
+  margin-top: 28px;
+}
+
+.order .product .img-box {
+  width: 160px;
+  height: 84px;
+  background-position: center center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=all.css.map */
