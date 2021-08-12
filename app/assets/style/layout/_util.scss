@@ -14,12 +14,33 @@ a {
 .navbar-hover {
     border: 1px solid #707070;
 
-    .nav-link {
-        transition: all .3s;
-        border-bottom: 1px solid transparent;
+    .nav-item {
+        margin-right: 18px;
 
-        &:hover {
-            border-bottom: 1px solid #E31277;
+        &:last-child {
+            margin-right: 0px;
+        }
+
+        .nav-link {
+            transition: all .3s;
+            border-bottom: 1px solid transparent;
+
+            &:hover {
+                border-bottom: 1px solid #E31277;
+            }
         }
     }
+
+}
+
+.title {
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.title-word {
+    font-size: 20px;
+    line-height: 30px;
 }
