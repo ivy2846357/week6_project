@@ -12288,6 +12288,58 @@ fieldset:disabled .btn {
   }
 }
 
+a {
+  text-decoration: none;
+}
+
+.navbar-hover {
+  border: 1px solid #707070;
+}
+
+.navbar-hover .nav-item {
+  margin-right: 18px;
+}
+
+.navbar-hover .nav-item:last-child {
+  margin-right: 0px;
+}
+
+.navbar-hover .nav-item .nav-link {
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+  border-bottom: 1px solid transparent;
+}
+
+.navbar-hover .nav-item .nav-link:hover {
+  border-bottom: 1px solid #E31277;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 48px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.title-word {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.word {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.fa-facebook {
+  font-size: 20px;
+}
+
+.fa-facebook:hover {
+  color: #035397;
+}
+
 .index .banner {
   background-image: url(../images/banner.jpg);
   width: 100%;
@@ -12334,14 +12386,6 @@ fieldset:disabled .btn {
 
 .index .exhibition .row .bg-gray {
   background: #EFEFEF;
-}
-
-.index .exhibition .row .fa-facebook {
-  font-size: 20px;
-}
-
-.index .exhibition .row .fa-facebook:hover {
-  color: #035397;
 }
 
 .index .movie .movie-bg {
@@ -12418,7 +12462,7 @@ fieldset:disabled .btn {
 }
 
 .like a:hover {
-  color: #d63384;
+  color: #E31277;
 }
 
 .like a .img-box {
@@ -12502,7 +12546,7 @@ footer ul li a:hover {
 }
 
 .ticket ul .border-bottom-purple {
-  border-bottom: 1px solid #d63384;
+  border-bottom: 1px solid #E31277;
 }
 
 .ticket .number {
@@ -12517,7 +12561,7 @@ footer ul li a:hover {
 }
 
 .ticket .number-hover:hover {
-  color: #d63384;
+  color: #E31277;
 }
 
 .ticket .ticket {
@@ -12526,10 +12570,6 @@ footer ul li a:hover {
 
 .ticket .btn {
   padding: 10px 96px;
-}
-
-.ticket .fa-facebook {
-  font-size: 20px;
 }
 
 .ticket .banner {
@@ -12560,50 +12600,6 @@ footer ul li a:hover {
 
 .ticket .article .col-8 p {
   margin-bottom: 16px;
-}
-
-a {
-  text-decoration: none;
-}
-
-.navbar-hover {
-  border: 1px solid #707070;
-}
-
-.navbar-hover .nav-item {
-  margin-right: 18px;
-}
-
-.navbar-hover .nav-item:last-child {
-  margin-right: 0px;
-}
-
-.navbar-hover .nav-item .nav-link {
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-  border-bottom: 1px solid transparent;
-}
-
-.navbar-hover .nav-item .nav-link:hover {
-  border-bottom: 1px solid #E31277;
-}
-
-.title {
-  font-size: 32px;
-  line-height: 48px;
-  font-weight: bold;
-  margin-bottom: 24px;
-}
-
-.title-word {
-  font-size: 20px;
-  line-height: 30px;
-}
-
-.word {
-  font-size: 16px;
-  line-height: 24px;
 }
 
 .order .process {

@@ -46,14 +46,6 @@
   background: #EFEFEF;
 }
 
-.index .exhibition .row .fa-facebook {
-  font-size: 20px;
-}
-
-.index .exhibition .row .fa-facebook:hover {
-  color: #035397;
-}
-
 .index .movie .movie-bg {
   background-image: url(../images/people2.png);
   width: 100%;
