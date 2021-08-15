@@ -1,13 +1,3 @@
-// 顏色
-$pink: #E31277;
-$purple: #630834;
-$dark-purple: #190014CC;
-
-@mixin bg-cover {
-    background-position: center center;
-    background-size: cover;
-}
-
 //取消連結底線
 a {
     text-decoration: none;
