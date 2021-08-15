@@ -1,3 +1,4 @@
+// 顏色
 $pink: #E31277;
 $purple: #630834;
 $dark-purple: #190014CC;
@@ -7,10 +8,12 @@ $dark-purple: #190014CC;
     background-size: cover;
 }
 
+//取消連結底線
 a {
     text-decoration: none;
 }
 
+//導覽列預設樣式
 .navbar-hover {
     border: 1px solid #707070;
 
@@ -33,6 +36,7 @@ a {
 
 }
 
+//文字共同樣式
 .title {
     font-size: 32px;
     line-height: 48px;
@@ -48,4 +52,13 @@ a {
 .word {
     font-size: 16px;
     line-height: 24px;
+}
+
+//FB icon設定
+.fa-facebook {
+    font-size: 20px;
+
+    &:hover {
+        color: #035397;
+    }
 }

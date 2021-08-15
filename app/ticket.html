@@ -1,40 +1,41 @@
 ---
-title: Boostrap Index
+title: 購票資訊
 layout: ./app/layout.ejs
 engine: ejs
-current: index
+current: ticket
 ---
 
 <div class="ticket">
+    <!-- 購票頁導覽列 -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-hover">
         <div class="container">
             <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">音樂</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">戲劇</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="design.html">設計</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">藝術</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">美食</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">旅遊</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">電影</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">親子</a>
                     </li>
-                    <li class="nav-item px-3">
+                    <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#">電影</a>
                     </li>
                 </ul>
@@ -42,11 +43,14 @@ current: index
         </div>
     </nav>
 
+    <!-- 購票資訊 -->
     <div class="container mt-6 mb-4">
         <div class="row d-flex align-items-center">
+            <!-- 購買展覽圖片 -->
             <div class="col-6 img-box mb-3 p-4 d-flex justify-content-end align-items-center">
                 <h5 class="text-white title-word">01<br>JUN<br>|<br>31<br>OCT</h5>
             </div>
+            <!-- 購買張數 -->
             <div class="col-3 d-flex flex-column justify-content-center">
                 <div class="d-flex justify-content-between align-items-center px-6 mb-2">
                     <a href="#" class="h3 number-hover">-</a>
@@ -55,6 +59,7 @@ current: index
                 </div>
                 <p class="text-center word">張</p>
             </div>
+            <!-- 票價 -->
             <div class="col-3 d-flex flex-column justify-content-center align-items-center ticket">
                 <h2 class="number fw-bold">NT$350</h2>
                 <p class="mb-0 mt-3 word">票種</p>
@@ -65,7 +70,9 @@ current: index
                 </ul>
             </div>
         </div>
+
         <div class="row d-flex">
+            <!-- 展覽簡介 -->
             <div class="col-6">
                 <h5 class="title-word">
                     2020 台味設計展
@@ -73,19 +80,25 @@ current: index
                 </h5>
                 <p class="word">一年一度的台味設計展由經濟部工業局主辦、台灣創意設計中心執行，每年，針對在地生活、文化及產業發展特色，運用設計思考詮釋新時代的意涵，並以展覽呈現在地設計。</p>
             </div>
+            <!-- 收藏展覽按鈕 -->
             <div class="col-3 d-flex justify-content-center align-items-start">
                 <a href="#" class="btn btn-outline-purple word d-inline-block">收藏展覽</a>
             </div>
+            <!-- 購買票券按鈕 -->
             <div class="col-3 d-flex justify-content-center align-items-start">
                 <a href="#" class="btn btn-pink word">購買票券</a>
             </div>
         </div>
     </div>
 
+    <!-- 中間滿版banner -->
     <div class="banner mb-4"></div>
 
+    <!-- 藝饗宴圖文內容 -->
     <div class="row article mx-0">
+        <!-- 藝饗宴圖片 -->
         <div class="col-4 mb-4"></div>
+        <!-- 藝饗宴內文 -->
         <div class="col-8">
             <h2 class="title-word">藝饗宴</h2>
             <h3 class="title-word">​Celebration of Style and Art</h3>
